@@ -40,6 +40,7 @@ gem 'jquery-rails'
 group :test, :development do
   gem "rspec-rails", "~> 2.0"
   gem 'spork-rails'
+  gem 'guard-rspec'
 end
 
 gem 'heroku'
